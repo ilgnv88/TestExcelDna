@@ -2,7 +2,7 @@
 
 namespace TestExcelDna
 {
-    public static class MyFunctions
+    public static class Functions
     {
         [ExcelFunction(Description = "My first .NET function")]
         public static string HelloDna(string name)
